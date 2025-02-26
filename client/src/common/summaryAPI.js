@@ -12,6 +12,10 @@ export const baseURL = "http://localhost:8080";
     forgotPassword:{
         url:"/api/user/forgotPassword",
         method: "patch"
+    },
+    forgotPasswordOTPVerification : {
+        url : '/api/user/forgotPasswordOTPVerification',
+        method: 'put'
     }
 }
 
